@@ -16,4 +16,15 @@ public class PluginATest {
 
         assertThat(pluginA.upperCase(origin), is("ABC"));
     }
+
+    @Test
+    public void concat_test() {
+        String first = "YunXiao";
+        String second = "@Alibaba";
+
+        PluginA pluginA = new PluginA();
+        String concat = pluginA.concat(first, second);
+
+        assertThat(concat, is("YunXiao@Alibaba"));
+    }
 }
