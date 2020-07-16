@@ -16,4 +16,9 @@ public class PluginA {
         Utils utils = new Utils();
         return utils.concat(first, second);
     }
+
+    public String concat2(String first, String second) {
+        Utils utils = new Utils();
+        return utils.concat(first, second);
+    }
 }
