@@ -14,7 +14,7 @@
   <groupId>com.alibaba.yunxiao</groupId>
   <artifactId>yunxiao_plus_1</artifactId>
   <!--<version>1.1-SNAPSHOT</version>-->
-  <version>1.1${version.code}</version>
+  <version>${version.code}</version>
   <packaging>jar</packaging>
 
   <name>yunxiao_plus_1 Maven Webapp</name>
@@ -25,7 +25,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
-    <version.code></version.code>
+    <version.code>1.1</version.code>
   </properties>
 
   <dependencies>
